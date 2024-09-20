@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1001abe985.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+   <nav class="navbar">
+    <img class="logo" src="assets/image/logo.png" alt="">
+    <ul class="nav-items">
+        <li><a rel="stylesheet" href="" class="nav-link">Stays</a></li>
+        <li><a rel="stylesheet" href="" class="nav-link">Experiences</a></li>
+    </ul>
+    <ul class="nav-items">
+        <li><a rel="stylesheet" href="" class="nav-link">Airbnb your home</a></li>
+        <li><i class="fa-solid fa-globe nav-link"></i></li>
+        <li><button class="btn btn-secondary"><i class="fa-solid fa-list nav-link"></i> <i class="fa-regular fa-user"></i></button></i></li>
+    </ul>
+   </nav>
+  <div class="p1">
+    <section class="hero border">
+        <ol class="nav-items">
+            <li><button class="btn-icon btn-secondary">Where <br> search</button></li>
+            <li><button class="btn-icon btn-secondary">Check in <br> add dates</button></li>
+            <li><button class="btn-icon btn-secondary">Check out <br> add dates</button></li>
+            <li><button class="btn-icon btn-secondary">Who <br> add guests <i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </ol>
+    </section>
+  </div>
+
+   <hr>
+   <section class="hero" >
+    
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img  class="icon" src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="">
+                <h6  class="overflow-text">Rooms</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" alt="">
+                <h6  class="overflow-text">Ski/inout</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="">
+                <h6  class="overflow-text">Cabins</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATHSURBVHgB7Z2NddMwEMf/MEGYADEBZQK0Ad0gZoJ2g3iDlgmSDaATuEzQMkHKBCkTBN+LDanrk/XlD9n3e+/e46nKST6dTtZFCoAgCIIgCMISeYMwVqVclHJZyudSVFVGPJfyWMqvUu5L+QF3+tafLGSETSmHUo6Wsq8+oyagP2mu4GaYNkOtR9SfNDfwN0xTbkbQnzRbxDNOLdsB9SdNTM9s89S+9SdNhu6HLKp66uxzF1XZd/gbL5b+aySKwmlR4x6M/qYj6OlbPy3qKyTIBvxDPcDtoVbVZ2yNH1t/jgThvIrKfTzqAnbGP1R1XVkZ+pzcLKDdJ2cgBTcynOK4T+xfww1t0KeRELdofwiXLb+GX+xvm3EuA1Ewem6RENxD2BiCpnofr5Y3sAsjGfh1JRm4dEBXbFZwW2x9ZoOy6EPbZw9ICM4AJhTihJwYg+DT/6QxvYHYGlXjFKdt9Li+ps6erphfG3jH/H3b0JeheyBml3DzJYPZUOTVtbdyRv3SoncF/m2sFg3B6Kn5Wb2VoZ4pnOQwz6xFk8Hs+edo8PG8C9NMWGPBFOA9s+nVOVPXZnNnWuQLLBQFN6/cMXVt08Xa0J7CAsngFpe52aJhD7dBTDLn/xZhfGHK75hybqF9hj3fmPKPWCBcykEz9TnvVbBHw23WzRrOoJync/HbBcXoSCrPUxN6Mu7oqNe1fqx2J8vQHZ6N4WIRuggLgQw9AE9MucJCmcoMWGxaeegBeGTKfU5AzIKhB+APUy4zYCC4GaAhDILGjDZRKUKhhts9ayyQoUNQfa+rjUsIg0BpYy4MySmHATB9L5xDGIQCMgtGRUNmwehws4BkMTvjMdPAGvanGZ4qoVvx9C3cT/CJPcECn5vwTaGBWGPBmVQfYhi+TbaQgeikD8M3ZQPhFQr9Xthoyh4yG/6xRv9e3yYHLPy8KLGBm9fS4dsML38TCHj5m0G2lzeaIYl0XuG0VtDnz52C/k0zlG7crzGT2WNrfDKIhjs0IDvLNnzCX4GEZxB13OYBFcJRsB8I3/UkqYFQMMd8+lsfh2iv0e9aY3s9dnTIY0ze1GeKQaHfG5p7THx92GD8zissdBAUzGFHYTgu0B6OqCzHadFXZ/VXmMH12B34Do9xcSLDS691+bozQ2LXYxX4jm4xHnklPt6a1PXYDHwnFdImh3k9mATcRmdM74/JpK/HKiQwRQOZ9PVY7le1JjM9I6HRU5gNPZilmfI7zIt78Dc5gw6UhQ4AdzV09KnZA5O8Htv1vkybHxoMWsg0wtGVrge8TikP0c7kwu3RUaiza7iTwS3FMFQ79eAPjoLfz1Cevz2oBbYTBVp09vDvrK2Xzq2dVmwPZuWlvK86GzsR9YT//xUJZtZO3lXZdgCOEHzotG/MCxo06pT5/FA1TPKplK+Ie4xwbu1Y0RX/cgsdORAUY1NsJxqmhUfbq/H+LelU24lGU3GBsC14BrvXPqqzhj/ZyO104vIWRBuO3zDnRVypD13Rdv5dVTandnIIgiAIQs9ojJsmTrWdYDJMM0089XaCUZB0tE87UZB0tF87rUg6WtLRs0bS0Qm0Y0VX/MstdORAUIxNsZ1omBYeba9G0tG+NBUXkHS0TTudSDpa0tHL5i+ngyFVy/vlTgAAAABJRU5ErkJggg==" alt="">
+                <h6 class="overflow-text">lslande</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg" alt="">
+                <h6  class="overflow-text">Windmills</h6>
+            </div>
+            
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="">
+                <h6  class="overflow-text">Windmills</h6>
+            </div>
+           
+            
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="">
+                <h6  class="overflow-text">Amazing views</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/0ff9740e-52a2-4cd5-ae5a-94e1bfb560d6.jpg" alt="">
+                <h6  class="overflow-text">containers</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="">
+                <h6  class="overflow-text">Castles</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="">
+                <h6  class="overflow-text">A-Frames</h6>
+            </div>
+        </button>
+        <!-- <button class="btn-icon btn-secondary  btn-none-border-radius  ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/747b326c-cb8f-41cf-a7f9-809ab646e10c.jpg" alt="">
+                <h6  class="overflow-text">Shepherd's huts</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary  btn-none-border-radius ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/827c5623-d182-474a-823c-db3894490896.jpg" alt="">
+                <h6 class="overflow-text">Ryokans</h6>
+            </div>
+        </button> -->
+        <!-- <button class="btn-icon btn-secondary  btn-none-border-radius ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg" alt="">
+                <h6 class="overflow-text">Surfing</h6>
+            </div>
+        </button>
+        <button class="btn-icon btn-secondary  btn-none-border-radius ">
+            <div>
+                <img class="icon" src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg" alt="">
+                <h6 class="overflow-text">Bed</h6>
+            </div>
+        </button> -->
+        
+        
+        
+        
+        
+    
+
+   </section>
+   <!-- <section class="hero" >
+    <div  class="image" ></div>
+   </section>
+   <section class="hero" >
+    <div  class="image" ></div>
+   </section>
+   <section class="hero" >
+    <div  class="image" ></div>
+   </section>
+   <section class="hero" >
+    <div  class="image" ></div>
+   </section>
+   <section class="hero" >
+    <div  class="image" ></div>
+   </section> -->
+   <section class="hero">
+    <div>
+        <div class="image">
+            
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <!-- <span class="icon">&#9733;</span> هنا يمكن وضع أيقونة -->
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <!-- <span class="icon">&#9733;</span> هنا يمكن وضع أيقونة -->
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <!-- <span class="icon">&#9733;</span> هنا يمكن وضع أيقونة -->
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="image">
+            <!-- <span class="icon">&#9733;</span> هنا يمكن وضع أيقونة -->
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+    <div>
+        <div class="image">
+            <i class="fa-regular fa-heart"></i>
+            
+        </div>
+        <div>
+            <h6 class="title div">Wettringen, Germany <i class="fa-regular fa-star"></i></h6><br>
+            <span class="title"><strong> JD37 </strong>
+                night</span>
+        </div>
+    </div>
+</section>
+<div class="b">
+    <h1>Inspiration for future getaways</h1>
+    <section class="">
+        <ol class="nav-items">
+            <li><a  class="nav-link title overflow-text" href=""></a>Popular</li>
+            <li><a  class="nav-link title overflow-text" href=""></a>Arts$culture</li>
+            <li><a class="nav-link title overflow-text" href="">Outdoors</a></li>
+            <li><a class="nav-link title overflow-text" href="">Mountains</a></li>
+            <li><a class="nav-link title overflow-text" href="">Beach</a></li>
+            <li><a class="nav-link title overflow-text" href="">Uniqus stays</a></li>
+            <li><a class="nav-link title overflow-text" href="">Categories</a></li>
+            <li><a class="nav-link title overflow-text" href="">Things to do</a></li>
+            <li><a class="nav-link title overflow-text" href="">Travel tips</a></li>
+            <li><a class="nav-link title overflow-text" href="">Airbnb</a></li>
+        </ol>
+    </section>
+    <div class="">
+        <ol class="nav-items">
+            <li><a class="nav-link title overflow-text" href="">Canmore</a></li>
+            <li><a class="nav-link title overflow-text" href="">Benalmadena</a></li>
+            <li><a class="nav-link title overflow-text" href="">marbella</a></li>
+            <li><a class="nav-link title overflow-text" href="">Mijas</a></li>
+            <li><a class="nav-link title overflow-text" href="">Prescoot</a></li>
+            <li><a class="nav-link title overflow-text" href="">Scottsdale</a></li>
+        </ol>
+    </div>
+    <div class="">
+        <ol class="nav-items">
+            <li><a class="nav-link title overflow-text" href="">Tucson</a></li>
+            <li><a class="nav-link title overflow-text" href="">Jasper</a></li>
+            <li><a class="nav-link title overflow-text" href="">Mountain</a></li>
+            <li><a class="nav-link title overflow-text" href="">Devonport</a></li>
+            <li><a class="nav-link title overflow-text" href="">Mallacoota</a></li>
+            <li><a class="nav-link title overflow-text" href="">ibiza</a></li>
+        </ol>
+    </div>
+    <div class="">
+        <ol class="nav-items">
+            <li><a class="nav-link title overflow-text" href="">Anaheim</a></li>
+            <li><a class="nav-link title overflow-text" href="">Monterey</a></li>
+            <li><a class="nav-link title overflow-text" href="">Paso Robles</a></li>
+            <li><a class="nav-link title overflow-text" href="">Santa Barbara</a></li>
+            <li><a class="nav-link title overflow-text" href="">sonoma</a></li>
+            
+        </ol>
+    </div>
+
+    
+<div>
+
+</div>
+</div>
+
+</body>
+</html>
